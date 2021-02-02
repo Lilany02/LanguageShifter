@@ -1,4 +1,25 @@
-a {
+body {
+    font-family: sans-serif;
+}
+.languages {
+    margin-top: 1em;
+}
+a{
     cursor: pointer;
     text-decoration: none;
+    padding: 1em 2em;
+    margin: 0;
+}
+a:hover {
+    background: #3d3d3d;
+    color:#d3d3d3;
+}
+a:focus {
+    background: #f00;
+}
+a:not(:first-of-type){
+    border-left: 1px solid #f00;
+}
+p{
+    padding-left: 2em;
 }
