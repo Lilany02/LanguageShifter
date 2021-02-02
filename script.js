@@ -37,7 +37,7 @@ if(window.location.hash){
 //Define language reload onclick illiteration
 
 for(let i = 0; i <= dataReload.length; i++) {
-    dataReload.onclick = function(){
+    dataReload.onclick = () => {
         location.reload();
     }
 }
